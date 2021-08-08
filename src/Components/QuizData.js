@@ -1,32 +1,32 @@
  export const QuizData = [
     {
         id: 0,
-        question: `What is the capital of Romania?`,
-        options: [`New Delhi`, `Bucharest`, `Prague`, `Budapest`],
-        answer: `Bucharest`
+        question: "De quel courant philosophique Plotin est-il le grand représentant ?",
+        options: [`scepticism `, `stoicisme`, `aristotélisme`, `néoplatonisme`],
+        answer: `néoplatonisme`
     },
     {
         id: 1,
-        question: `What is the capital of India?`,
-        options: [`Punjab`, `Awka`, `Owerri`, `New Delhi`],
-        answer: `New Delhi`
+        question: `Qui a réalisé le film « In the mood for love » ?`,
+        options: [`Scorsese`, `Chan Feng Zhao`, `OweWong Kar-Wai`, `Zhang Yimou`],
+        answer: `OweWong Kar-Wai`
     },
     {
         id: 2,
-        question: `What is the capital of Australia?`,
-        options: [`Mumbai`, `Abuja`, `Warri`, `Sydney`],
-        answer: `Sydney`
+        question: `Parmi les hommes politiques suivants, lequel a succédé à Hugo Chavez en tant que Président du Venezuela ?`,
+        options: [`Lula`, `Rafael Correa`, `Nicolas Maduro`, `Evo Morales`],
+        answer: `Nicolas Maduro`
     },
     {
         id: 3,
-        question: `What is the capital of Turkey?`,
-        options: [`Bangalore`, `Ankara`, `Istanbul`, `Enugu`],
-        answer: `Ankara`
+        question: `De l’œuvre de quel écrivain est tirée la célèbre question « Que sais-je ? »`,
+        options: [`Montaigne`, `Voltaire`, `Étienne de la Boétie`, `Diderot`],
+        answer: `Montaigne`
     },
     {
         id: 4,
-        question: `What is the capital of Ukrain?`,
-        options: [`Lviv`, `Odesa`, `Kiev`, `Kharkiv`],
-        answer: `Kiev`
+        question: `Quelle race d’animal est un briard ?`,
+        options: [`Un chat`, `Un chien`, `Un canard`, `Un cheval`],
+        answer: `Un chien`
     },
 ]

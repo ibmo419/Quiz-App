@@ -9,8 +9,7 @@ function Quiz() {
             currentIndex:0,  //current questions index
             options: [],       //the four options
             quizEnd: false, //True if it's the last question
-                         //the Score
-            disabled: true,
+            disabled: true,//the Score
         }
     )
     
@@ -74,8 +73,8 @@ function Quiz() {
             {
                 state.quizEnd?
                 <div>
-                    <h1>Game Over Finale score is {state.score} points</h1>
-                    <p>The correct answers for the quiz are </p>
+                    <h1>Votre score is {state.score} points</h1>
+                    <p>Les réponses correctes sont : </p>
                     <ul>
                         {QuizData.map((item,index)=>(
                             <li className="options" key={index} >{item.answer}</li>
@@ -84,7 +83,7 @@ function Quiz() {
                 </div>:
             <div>
             <h2>{state.question}</h2>
-            <span>{`Question ${state.currentIndex+1} of ${QuizData.length}`}</span>
+            <span>{`Question ${state.currentIndex+1} de ${QuizData.length}`}</span>
             {
                 state.options.map((option,index)=>
                     <p  key={index} className={`options ${state.userAnswer===option? "selected":null}`}
@@ -95,10 +94,10 @@ function Quiz() {
             {
                 state.currentIndex<QuizData.length-1 ?
                 <button disabled={state.disabled} onClick={nextQuestionHandler}>
-                    Next Question
+                    Suivant
                 </button>:
                 <button onClick={finishHandler} >
-                    Finish
+                    Finir
                 </button>
             }
         </div>
